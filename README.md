@@ -50,10 +50,10 @@ start contributing immediately without setup friction.
 
 | Field | Details |
 |---|---|
-| Team Name | ____________________ |
-| Team Members (4) | 1. ______  2. ______  3. ______  4. ______ |
-| Team Lead (contact) | Name — Email/Phone |
-| GitHub Repository Link | https://github.com/____________________ |
+| Team Name | codeX |
+| Team Members (4) | 1. Abhinav Karthikeya  2. Sai Rahul Teja  3. Sai Srinivas  4. Prem Kumar Reddy |
+| Team Lead (contact) | Abhinav — abhinavcolwork@gmail.com |
+| GitHub Repository Link | https://github.com/Abhinav-1952/XRAY-TEAM-REPO |
 
 ## 2. Repository Structure
 
@@ -130,4 +130,3 @@ and does not reuse pre-existing projects or another team's code.
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0072ff,100:00c6ff&height=100&section=footer)
 
 </div>
-
