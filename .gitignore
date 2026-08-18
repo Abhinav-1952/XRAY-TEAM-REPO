@@ -1,0 +1,25 @@
+# Raw data — never commit images
+data/train/*
+data/test/*
+!data/train/.gitkeep
+!data/test/.gitkeep
+
+# Keep labels and predictions tracked
+!data/train_labels.csv
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (usually too large / regeneratable — unignore specific ones if small)
+models/*
+!models/.gitkeep
+
+# OS
+.DS_Store
