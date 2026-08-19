@@ -20,21 +20,26 @@ Updated once per day — see `PROMPT_FOR_README_UPDATES.md` for how this section
 regenerated.*
 
 <details open>
-<summary><b>🟢 Day 1 — Aug 15, 2026 — Kickoff & repo scaffold</b></summary>
+<summary><b>🟢 Day 2 — Aug 16, 2026 — Real dataset loaded + environment working</b></summary>
 
-![Day Banner](https://capsule-render.vercel.app/api?type=rect&color=0:1e3c72,100:2a5298&height=80&text=Day%201&fontSize=28&fontColor=ffffff&animation=blink)
+![Day Banner](https://capsule-render.vercel.app/api?type=soft&color=0:11998e,100:38ef7d&height=80&text=Day%202&fontSize=28&fontColor=ffffff&animation=twinkling)
 
 **What we did:**
-- Set up the repo structure to match the official submission template (`/code`, `/predictions`, `/pitch_deck`)
-- Scaffolded preprocessing, feature extraction, train/predict pipeline
-- Defined team roles and branching workflow
+- Loaded the full dataset into the repo: 4,484 training images into `data/train` and 1,122 test images into `data/test`
+- Verified image filenames match the `Image Index` column in `train_labels.csv` (spot-checked, e.g. `00000013_005.png`, `00000013_026.png`)
+- Confirmed folder item counts line up exactly with expectations (train count matches label row count)
+- Set up an isolated Python virtual environment (`.venv`) and installed all project dependencies
+- Wrote `data/check_data.py`, a script that automatically verifies every labeled image actually exists on disk before we build anything on top of it
+- Dropped `mahotas` from `requirements.txt` — it required a heavy Windows build toolchain and isn't actually used anywhere in our feature code (all texture/edge/blob features run on `scikit-image` instead)
 
-**Impact:** Repo is now reproducible end-to-end from a clean clone — every teammate can
-start contributing immediately without setup friction.
+**Impact:** Every teammate now has a working, reproducible local environment and an
+automated way to catch data problems early — nobody is blocked from starting EDA
+or feature work tomorrow.
 
 </details>
 
 <!-- PAST_DAYS_START -->
+- **Day 1 — Aug 15, 2026:** Repo scaffolded to match submission template, roles + branching defined
 <!-- New compressed one-line entries get inserted above this line, newest first -->
 <!-- PAST_DAYS_END -->
 
