@@ -2,7 +2,7 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=DataML%20Challenge&fontSize=48&fontColor=ffffff&animation=fadeIn&desc=Chest%20X-Ray%20Multi-Condition%20Detection&descAlignY=75&descSize=18)
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=00C6FF&center=true&vCenter=true&width=600&lines=Day+1+%E2%80%94+Repo+is+live%21;Classical+ML+only.+No+shortcuts.;Feature+engineering+is+the+whole+game.)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=00C6FF&center=true&vCenter=true&width=600&lines=Day+2+%E2%80%94+Repo+is+live%21;Classical+ML+only.+No+shortcuts.;Feature+engineering+is+the+whole+game.)
 
 ![Team](https://img.shields.io/badge/team-4_members-blueviolet?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-in_progress-yellow?style=for-the-badge)
